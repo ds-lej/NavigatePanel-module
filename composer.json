@@ -1,0 +1,25 @@
+{
+    "name": "lej/navigatepanel",
+    "description": "",
+    "authors": [
+        {
+            "name": "Diamond Systems",
+            "email": "me@diamondsystems.org"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\NavigatePanel\\Providers\\NavigatePanelServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\NavigatePanel\\": ""
+        }
+    }
+}
